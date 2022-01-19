@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Poppins', 'Nunito Sans';
+}
+
+body{
+    background: #f2f2f2;
+}
+
+.container{
+    width: 859px;
+    height: 928px;
+    background: #ffffff;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    filter:drop-shadow(0 8px 8px rgba(0,0,0,0.2));
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.nav{
+    background: #203774;
+    height: 90px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.nav h1{
+    margin: 30px;
+    font-weight: 400;
+    padding: 10px; 
+}
+
+.close{
+    margin-left: 460px; 
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 400; 
+    padding: 5px;
+}
+
+.close:hover{
+    color: grey;
+}
+
+.cont-fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cont-fecha h2, span{
+    margin-top: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.cont-fecha h2{
+    font-size: 30px;
+}
+
+.cont-fecha span{
+    font-size: 15px;
+}
+
+
+.fas{ 
+    margin: 1em 2em 0 2em;
+    font-size: 1.5em;
+}
+
+.fas:hover{ 
+    color: gray;
+}
+
+.conteiner1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 25%;
+    background: #203774;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    filter:drop-shadow(0 8px 8px rgba(0,0,0,0.2));
+    padding:30px
+}
+
+.conteiner2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    height: 25%;
+    background: #203774;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    filter:drop-shadow(0 8px 8px rgba(0,0,0,0.2));
+    padding: 30px;
+}
+
+.column{
+    width: 100%;
+    display: block;
+}
+
+    .esp{
+        font-family: 'poppins';
+        color: white;
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .hora{
+        font-family: 'poppins';
+        color: white;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+    }
+
+    .prof{
+        font-family: 'poppins';
+        color: white;
+        font-weight: 400;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+
+    
+    .doctores{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+        vertical-align: middle;
+        border: 2px solid #4868BD;
+    }
+
+    .boton{
+        border: none;
+        color: #000000;
+        padding: 10px 30px;
+        background-color: rgb(251, 251, 251);
+        border-radius: 3px;
+        margin-bottom: 6em;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .boton:hover{
+        background-color:#4868BD;
+        color: white;
+        border: 1px solid #1e49be;
+    }
+
+    .name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        font-size: 18px;
+        font-weight: 600;
+        color: gray;
+        background: #4868BD;
+    }
+    
+    .name a{
+        text-decoration: none;
+        color: white;
+        background: none;
+    }
+    
+    .name a:hover{
+        text-decoration: none;
+        color: black;
+        background: none;
+    }
+
+    @media only screen and (max-width:800px){
+        .container{
+            width: 360px;
+            height: 850px;
+            scroll-behavior: smooth;
+        }
+
+        .nav{
+            font-size: 10px;
+        }
+
+        .boton{
+            padding: 5px 5px;
+            margin-top: 80px;
+            margin-left: 10px;
+        }
+
+        .doctores{
+            width: 30px;
+            height: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: 15px;
+            margin-bottom: 10px;
+
+        }
+    
+        .close{
+            margin-left: 100px; 
+            cursor: pointer;
+            font-size: 20px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .conteiner1{
+            margin-top: 30px;
+        }
+           
+    }
